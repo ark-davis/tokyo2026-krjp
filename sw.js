@@ -2,9 +2,10 @@
    index.html(이미지·일정·아이콘 전부 내장)을 캐시에 저장해
    한 번 접속 후에는 인터넷 없이도 홈 화면 아이콘으로 실행됩니다. */
 
-const CACHE = 'tokyo-guide-v64';
+const CACHE = 'tokyo-guide-v66';
 const ASSETS = [
-  './', './index.html', './sw.js', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+  './', './index.html', './sw.js', './manifest.webmanifest',
+  './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(
